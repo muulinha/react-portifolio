@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
 import Contact from '../../assets/LA_LOGO.png';
+import './Contact.css';
 
 function ContactForm() {
     const [formState, setFormState] = useState({ name: '', email: '', message: '' });
@@ -43,24 +44,17 @@ return (
             <h1 className="page-header">Let's connect</h1>
         </div>
         <div className="center">
-        <img
-					src={Contact}
-					alt="contact-photo"
-					className="photo"
-				/>
-        </div>
-        <div className="center">
-        <form id="contact-form" onSubmit={handleSubmit}>
+           <form id="contact-form" onSubmit={handleSubmit}>
             <div>
                 <label htmlFor="name">Name:</label>
                 <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
             </div>
             <div>
-                <label htmlFor="email">Email address:</label>
+                <label htmlFor="email">Email:</label>
                 <input type="email" name="email" defaultValue={email} onBlur={handleChange} />
             </div>
             <div>
-                <label htmlFor="message">Message:</label>
+                <label className='message' htmlFor="message">Message:</label>
                 <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} />
             </div>
             {errorMessage && (

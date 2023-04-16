@@ -1,0 +1,25 @@
+.contact {
+    display: block;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}  
+
+.page-header {
+    text-align: center;
+    font-size: 50px;
+    margin: 20px auto;
+    text-decoration: none;
+    color: black;
+}
+
+.center {
+justify-content: center;
+text-align: center;
+    margin: 20pxauto;
+}
+
+.message {
+    margin: auto;
+
+}
