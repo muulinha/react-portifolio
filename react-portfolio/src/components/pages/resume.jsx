@@ -4,4 +4,4 @@ function Resume() {
     return <div> this is the Resume page</div>;
   }
   
-  export default Rsume;
+  export default Resume;

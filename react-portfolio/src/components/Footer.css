@@ -1,0 +1,10 @@
+.logo {
+	cursor: pointer;
+	list-style: none;
+	font-size: 40px;
+	color: purple;
+}
+
+.logo:hover {
+	opacity: 0.5;
+}

@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.profilepic {
+    display: flex;
+    margin: 10px auto;
+}
+
+.profilepic:hover {
+    opacity: 0.3;
+    transition: .5s ease;
+  }
+
+  p {   
+    margin: 40px auto 20PX;
+    ;
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 50px;
+    margin: 50px auto;
+    text-decoration: none;
+  }

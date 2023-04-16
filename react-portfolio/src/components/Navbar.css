@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+  .nav {
+    border: 2px solid red;
+    padding: 40px;
+    background-color: green;
+display: flex;
+justify-content: space-between;
+  }
+
+  .navbarul {
+    border: 2px solid pink;
+    list-style: none;
+    display: inline-flex;
+  }
+
+  .navbarli {
+    border: 2px solid blue;
+    margin: auto 15px;
+    font-size: 30px;
+  }
+
+  .name {
+    font-size: 50px;
+    display: inline;
+    border: 2px solid grey;
+  }
