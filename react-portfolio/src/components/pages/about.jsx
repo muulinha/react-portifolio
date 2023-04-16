@@ -1,4 +1,4 @@
-import Lucas from '../../../src/assets/lucas.jpg'
+import Lucas from '../../../src/assets/lucas-removebg-preview.png'
 import './About.css';
 
 function About() {

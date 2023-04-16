@@ -2,6 +2,7 @@ import React from "react";
 import { BsFillBriefcaseFill } from "react-icons/bs";
 import { FaUserAlt, FaEnvelope } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import Logo from "../assets/LA_LOGO.png"
 
 import './Navbar.css';
 
@@ -11,7 +12,10 @@ function Navbar() {
       {" "}
       
       <nav className="nav">
-        <div className="name">Lucas Araujo</div>
+        <div className="logo-name">
+          <img className="logopic" src={Logo} alt="Logo-Pic"/>
+          <div className="name">Lucas Araujo</div>
+        </div>
         <ul className="navbarul">
           <Link to="about">
           <li className="navbarli">

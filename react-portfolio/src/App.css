@@ -11,7 +11,11 @@
 }
 
 main{
-  flex-grow: 1}
+  flex-grow: 1;
+  padding: 0 5%;
+  background-image: url("./assets/background.png");
+
+}
 
 h1 {
   font-family: optima;
@@ -128,7 +132,6 @@ body {
 
 h2 {
   font-family: optima;
-  color: black;
   text-decoration: underline;
 }
 

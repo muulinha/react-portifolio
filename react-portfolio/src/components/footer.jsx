@@ -18,17 +18,7 @@ function Footer() {
                                 <FaGithub />
                             </li>
                         </a>
-                        <a href="" target="blank" rel="noopener noreferrer">
-                            <li className="logo">
-                                <FaInstagram />
-                            </li>
-                        </a>
-                        <a href="" target="blank" rel="noopener noreferrer">
-                            <li className="logo">
-                                <FaTwitter />
-                            </li>
-                        </a>
-                </footer>
+        </footer>
             </div>
     );
   }

@@ -6,22 +6,26 @@
 
 .profilepic {
     display: flex;
-    margin: 10px auto;
+    margin:  auto;
 }
 
 .profilepic:hover {
-    opacity: 0.3;
+    opacity: 0.8;
     transition: .5s ease;
   }
 
   p {   
     margin: 40px auto 20PX;
+    background-color: rgba(40, 42, 43, 0.6);
+    padding: 40px;
+    color: white;
     ;
   }
 
   h2 {
     text-align: center;
     font-size: 50px;
-    margin: 50px auto;
+    margin: 20px auto;
     text-decoration: none;
+    color: black;
   }
