@@ -17,13 +17,14 @@
     display: inline-flex;
     padding: auto, 0px;
 
+
+
   }
 
   .navbarli {
     margin: 10px 15px;
     font-size: 30px;
     color: white;
-    
   }
 
   .name {
@@ -42,4 +43,5 @@
     display: flex;
 
   }
+
 
