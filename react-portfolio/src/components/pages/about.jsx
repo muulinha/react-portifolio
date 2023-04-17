@@ -4,7 +4,7 @@ import './About.css';
 function About() {
   return (
     <section id="aboutme" className="aboutme">
-      <h2>ABOUT ME</h2>
+      <h1 className='page-header'>About Me</h1>
       <img className="profilepic" src={Lucas} alt="lucas"/>
       <p>
         Hi there, my name is Lucas Araujo. I am a full-stack web developer, holding a Bachelor’s degree in Mechanical Engineering. 

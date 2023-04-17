@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
-import Contact from '../../assets/LA_LOGO.png';
 import './Contact.css';
 
 function ContactForm() {
@@ -45,15 +44,15 @@ return (
         </div>
         <div className="center">
            <form id="contact-form" onSubmit={handleSubmit}>
-            <div>
+            <div div className='space'>
                 <label htmlFor="name">Name:</label>
                 <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
             </div>
-            <div>
+            <div className='space'>
                 <label htmlFor="email">Email:</label>
                 <input type="email" name="email" defaultValue={email} onBlur={handleChange} />
             </div>
-            <div>
+            <div className='message'>
                 <label className='message' htmlFor="message">Message:</label>
                 <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} />
             </div>
