@@ -16,16 +16,19 @@
     list-style: none;
     display: inline-flex;
     padding: auto, 0px;
-
-
-
+    text-decoration: none;
   }
 
+  a {
+    text-decoration: none;
+  }
   
   .navbarli {
     margin: 10px 15px;
     font-size: 30px;
     color: white;
+    text-decoration: none;
+    
   }
 
   .name {
@@ -42,6 +45,7 @@
 
   .logo-name {
     display: flex;
+    margin-left: 20px
 
   }
 
