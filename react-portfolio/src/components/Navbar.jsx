@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import Logo from "../assets/LA_LOGO.png"
 
 import './Navbar.css';
+import '../index.css';
 
 function Navbar() {
   return (
@@ -20,8 +21,7 @@ function Navbar() {
           <Link to="about">
           <li className="navbarli">
               {" "}
-              <FaUserAlt /> About Me
-            </li>
+              <FaUserAlt /> About Me</li>
           </Link>
           <Link to="projects">
           <li className="navbarli">
