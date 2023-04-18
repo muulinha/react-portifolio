@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react-portifolio/static/css/main.9bae4a41.css",
+    "main.js": "/react-portifolio/static/js/main.96f782c6.js",
+    "static/media/background.png": "/react-portifolio/static/media/background.24d30b7dc8948bfe7bf0.png",
+    "static/media/destination.jpg": "/react-portifolio/static/media/destination.fc4d1c9ccfd9ce319c84.jpg",
+    "static/media/weather-dashboard.png": "/react-portifolio/static/media/weather-dashboard.ca4b617e8053b32dccd2.png",
+    "static/media/Lucas Araujo Resume.pdf": "/react-portifolio/static/media/Lucas Araujo Resume.4d62524159744e69171f.pdf",
+    "static/media/lucas-removebg-preview.png": "/react-portifolio/static/media/lucas-removebg-preview.b24c7ebd837fbbf10645.png",
+    "static/media/todolist.png": "/react-portifolio/static/media/todolist.571c700a97921aa06769.png",
+    "static/media/LA_LOGO.png": "/react-portifolio/static/media/LA_LOGO.7faa6a9375157fd8aded.png",
+    "index.html": "/react-portifolio/index.html",
+    "main.9bae4a41.css.map": "/react-portifolio/static/css/main.9bae4a41.css.map",
+    "main.96f782c6.js.map": "/react-portifolio/static/js/main.96f782c6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9bae4a41.css",
+    "static/js/main.96f782c6.js"
+  ]
+}
